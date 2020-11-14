@@ -62,6 +62,8 @@ keys[1] = rightKey
 keys[0] = leftKey
 
 
+
+
 for (i = 0; i&lt;4; i+=1){
     if(keys[i]){
         
@@ -91,10 +93,13 @@ for (i = 0; i&lt;4; i+=1){
             <kind>1</kind>
             <string>/// debug
 
+depth = 1000000
+
+mp_grid_draw(global.grid);
+
+depth = -11111111
+
 draw_self();
-
-//mp_grid_draw(global.grid);
-
 </string>
           </argument>
         </arguments>
